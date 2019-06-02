@@ -3,7 +3,7 @@ if v:lang =~ "utf8$" || v:lang =~ "UTF-8$"
 endif
 
 set nocompatible	" Use Vim defaults (much better!)
-set bs=indent,eol,start		" allow backspacing over everything in insert mode
+set bs=indent,eol,start	" allow backspacing over everything in insert mode
 "set ai			" always set autoindenting on
 "set backup		" keep a backup file
 set viminfo='20,\"50	" read/write a .viminfo file, don't store more
@@ -46,7 +46,7 @@ if has("cscope") && filereadable("/usr/bin/cscope")
 endif
 
 " Switch syntax highlighting on, when the terminal has colors
-" Also switch on highlighting the last used search pattern.
+" Also switch off highlighting the last used search pattern.
 if &t_Co > 2 || has("gui_running")
   syntax on
   set nohlsearch
