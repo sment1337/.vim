@@ -13,6 +13,8 @@ set ruler		" show the cursor position all the time
 set relativenumber
 set number
 set autoindent
+set list
+set lcs=tab:▸\ ,trail:·,nbsp:⎵,eol:$
 
 " Only do this part when compiled with support for autocommands
 if has("autocmd")
