@@ -14,6 +14,7 @@ set ruler		" show the cursor position all the time
 set number
 set autoindent
 set list
+set softtabstop=0 noexpandtab
 set lcs=tab:▸\ ,trail:·,nbsp:⎵,eol:$
 
 " Only do this part when compiled with support for autocommands
