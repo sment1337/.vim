@@ -15,7 +15,7 @@ set list
 set softtabstop=0
 set noexpandtab
 set autoindent
-set lcs=tab:▸\ ,trail:·,nbsp:⎵,eol:$
+set lcs=tab:>\ ,trail:~,nbsp:_,eol:$
 
 " Only do this part when compiled with support for autocommands
 if has("autocmd")
