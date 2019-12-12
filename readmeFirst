@@ -1,0 +1,6 @@
+to add vundle from this branch please run the following:
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+
+The reason is that the ./bundle/ dir is ignored.
+
+Then follow the installation instructions from github
