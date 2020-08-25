@@ -15,6 +15,7 @@ set list
 set softtabstop=0
 set noexpandtab
 set autoindent
+set statusline=+%F
 set lcs=tab:>\ ,trail:~,nbsp:_,eol:$
 
 " Only do this part when compiled with support for autocommands
