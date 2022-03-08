@@ -15,7 +15,7 @@ set list
 set softtabstop=0
 set noexpandtab
 set autoindent
-set statusline=%<%F\ %h%m%r\ %y%=%{v:register}\ %-14.(%l/%L,%c%V%)\ %P`
+set statusline=%<%F\ %h%m%r\ %y%=%{v:register}\ %-14.(%l/%L,%c%V%)\ %P
 set laststatus=2
 set title
 set lcs=tab:>\ ,trail:~,nbsp:_,eol:$
